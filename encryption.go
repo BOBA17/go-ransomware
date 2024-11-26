@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Initialize AES in GCM mode
-	key := []byte("thisisthesecretkeythatwillbeused")
+	key := []byte("Ss13102010.")
 	block, err := aes.NewCipher(key)
 	if err != nil {
 		panic("error while setting up aes")
